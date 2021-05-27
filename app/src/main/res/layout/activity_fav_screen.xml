@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fav_screen">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_favorite_img" />
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="@color/tabindicatotrcolor"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/Fav_hastag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="17dp"
+        />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_group_1">
+
+        <item
+            android:id="@+id/menu_darkmode"
+            android:title="Dark Mode"
+
+            />
+
+        <item
+            android:id="@+id/menu_rate"
+            android:title="Rate us"
+            android:icon="@drawable/ic_rate_black_24dp"
+            />
+
+    </group>
+
+    <item android:title="Communicate">
+
+    <group android:id="@+id/menu_group_2">
+        <item
+            android:id="@+id/menu_settings"
+            android:title="Settings"
+            android:icon="@mipmap/ic_settings_img"
+            />
+
+        <item
+            android:id="@+id/menu_about"
+            android:title="About" />
+    </group>
+    </item>
+</menu>
