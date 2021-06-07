@@ -2,8 +2,8 @@
 
 <h3>Description</h3>
 
-This App is Developed in JAVA using REST API, CardView, Bottom Navigation,<br>
-Splash Screen, Chip, Glide, Retrofit
+This App is Developed in JAVA using RETROFIT, REST API, CardView, Bottom Navigation,<br>
+Splash Screen, Chip, Glide.
 
 <h3>Features</h3>
 
